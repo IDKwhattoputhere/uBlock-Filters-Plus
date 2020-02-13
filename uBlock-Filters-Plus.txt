@@ -22,17 +22,13 @@
 ##a[href^="/adb/"]
 ##a[href^="http://data.oileddaintiessunset.info/"]
 ##a[href^="http://ddownload39.club/"]
+##[href*=".reimageplus.com/"]
 ##[href*="://ab.advertiserurl.com/"]
 ##[href^="http://engine.4dsply.com/"]
 ##[href^="http://r.search.yahoo.com/cbclk/"]
 ##[href^="http://watch.primewire.ag"]
-||complisoft.ru/api/anti/reportMetrics
-||reddit.com/api/request_promo
-||redditmedia.com/moat/
 ##[href^="http://x.chip.de/fs24/"]
 ##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
-##[href*=".reimageplus.com/"]
-vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
 ##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
 ##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
 &adb=$subdocument,other
@@ -129,6 +125,7 @@ torrentfreak.com##ASIDE.widg.widget_text
 unbubble.eu##.sponsor-title
 unbubble.eu##.sponsor-title + *
 unbubble.eu##.top-products
+vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
 viptube.com###adx_ad
 viptube.com##.footer_adv
 watchfree.to##.get_vpn
@@ -180,6 +177,7 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||clkfeed.com^
 ||cloudfront.net^$popup,third-party,domain=allvid.ch
 ||cnt.viptube.com^
+||complisoft.ru/api/anti/reportMetrics
 ||conative.de^$third-party
 ||contentabc.com^$popup,third-party
 ||contributor.google.com/scripts/*/loader.js$script,domain=chip.de
@@ -257,6 +255,8 @@ zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.f
 ||pussyspace.com/ajax_obj.js
 ||qrrgv.space^
 ||rdsa2012.com^
+||reddit.com/api/request_promo
+||redditmedia.com/moat/
 ||redirectvoluum.com^
 ||restoring.club^
 ||revcontent.com^$script,third-party
