@@ -3,643 +3,501 @@
 # Homepage: https://github.com/IDKwhattoputhere/uBlock-Filters-Plus
 # Support: https://github.com/IDKwhattoputhere/uBlock-Filters-Plus/issues
 
-# adf.ly
-||adplxmd.com^
-||adplxmd.com^$popup
-||adnetworkperformance.com^
-||adnetworkperformance.com^$popup
-||adverkeyz.com^
-||adverkeyz.com^$popup
-/puopen.$popunder,popup,important
-
-# streamcloud.eu
-||anverlindo.info^
-|http*$xmlhttprequest,domain=streamcloud.eu
-||invernetter.info^
-||trimpur.com^
-||trimpur.com^$popup
-||signetter.com^
-||signetter.com^$popup
-
-# promptfile.com
-||oratosaeron.com^
-||oratosaeron.com^$popup
-
-# NSFW fantasti.cc
-||officerrecordscale.info^
-||officerrecordscale.info^$popup
-||gmyze.com^
-||fantasti.cc*/*track.php
-/antiadblock*$script
+###adb-note
+###AdsByCurseBanner
+###NotificationUpgradeWin81and7NonSupport
+###su_flash_ec__0
+###su_flash_ec__1
+##.slide_likebox
+##a[href*=".hop.clickbank.net/"]
+##a[href*="/afu.php"]
+##A[href*="/AF_TA/rel/index.cfm"]
 ##a[href*="/_b2.php?url="]
-
-# revclouds.com
-||cytochemistryrecitativewrasse.com^
-||cytochemistryrecitativewrasse.com^$popup
-||finishclueobscure.info^
-||finishclueobscure.info^$popup
-||zerem.*.info^
-||zerem.*.info^$popup
-
-# torrentz.eu
-||ticrite.com^
-||ticrite.com^$popup
-||scandicas.com^
-||scandicas.com^$popup
-/Redirect*MediaSegmentId$document
-
-# NSFW hanime.tv
-||contentabc.com^$popup,third-party
-||atas.io^$popup,third-party
-
-# NSFW hentaihaven.org
-||trw12.com^$popup
-||hentaihaven.org/beta/
-hentaihaven.org##.hh_simple_banner
-||hentaihaven.org/_
-hentaihaven.org##.ads
-
-# NSFW 3movs.com
-||towardangelaosprey.com^
-||towardangelaosprey.com^$popup
-/adman/*$document
-||trafficmagnates.com^
-||trafficmagnates.com^$popup
-/click-in.php?$document
-/arecl.js
-/click.php?$document
-
-# NSFW x3xtube.com
-||x3xtube.com/redir*.html$popup
-/po1.php?
-||0jzxzd21.com^
-||adnium.com^
-x3xtube.com##[href^="http://join."]
-x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
-
-# openload.co
-||downloatransfer.com^$popup
-||npmpecd.com^$popup,document
-|http*$popup,third-party,domain=openload.co
-
-# primewire.ag
+##a[href*="/_b3.php?url="]
+##a[href*="/_c3.php?url="]
+##A[href*="://nitrogensports.eu/r/"]
+##a[href*="://secure.link/"]
+##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
+##a[href="http://www.chip.de/amazon_prime"]
+##a[href^="/adb/"]
+##a[href^="http://data.oileddaintiessunset.info/"]
+##a[href^="http://ddownload39.club/"]
+##[href*="://ab.advertiserurl.com/"]
 ##[href^="http://engine.4dsply.com/"]
+##[href^="http://r.search.yahoo.com/cbclk/"]
 ##[href^="http://watch.primewire.ag"]
+||complisoft.ru/api/anti/reportMetrics
+||reddit.com/api/request_promo
+||redditmedia.com/moat/
+##[href^="http://x.chip.de/fs24/"]
+##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
+##[href*=".reimageplus.com/"]
+vclock.com##[href^="https://hotalarmclock.com/advanced-stopwatch/"]
 ##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'promo_host']);"]
 ##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'special_link', 'sponsor_host']);"]
-##[onclick="_gaq.push(['_trackEvent', 'flat_zone', 'bottom_aff_link']);"]
-primewire.ag,primewire.in,primewire.org##[onclick*="'bt_watch_now'"]
-primewire.ag,primewire.in,primewire.org##[onclick*="'bt_stream'"]
+&adb=$subdocument,other
+.com/*/Redirect.a1b$document
+.com/faloo.js|$script,first-party
+/adblockbanner*$script
+/adblockpopunder*$script
+/adman/*$document
+/antiadblock*$script
+/arecl.js
+/async_pixel?
+/Avast_*_Generic_*_WebBanner*.jpg$image
+/b?z=$script
+/ccc-adscript/*
+/click-in.php?$document
+/click.php?$document
 /clicktag.engine?$document,popup
+/exo-loader/frontend_loader.js
 /landing?refererId=$document,popup
-|http*$xmlhttprequest,domain=primewire.ag|primewire.in|primewire.org,third-party
-|http*$script,domain=primewire.org,third-party
-||branchroughlend.info^
-
-# Yahoo
-# Global search ads
-##[href^="http://r.search.yahoo.com/cbclk/"]
-
-# NSFW viptube.com
-||cnt.viptube.com^
-||viptube.com/_
-viptube.com###adx_ad
-viptube.com##.footer_adv
+/log_interaction?
+/po1.php?
+/popadblock*$script
+/popu/*$script
+/popupclick/$popup
+/puopen.$popunder,popup,important
+/Redirect*MediaSegmentId$document
+/revive-adserver-$popunder,popup
+/scripts/sweet/*$third-party
+/scripts/sweet/b3.php
+/smartbanner/appbanner.js
+/static/full-page-script.js$third-party
+/statserv/video/view
+/unblockmeback.php$script
+4553t5pugtt1qslvsnmpc0tpfz5fo.xyz##script:inject(bab-defuser.js)
+?pixel=
+@@/js/abp.js?$script,first-party
+@@||api.solvemedia.com^$script,third-party,domain=uploadrocket.net
+@@||cache.realitykings.com^$media,object,first-party
+@@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
+@@||firebaseapp.com/adpoint.js?_=$script
+@@||hiqqu.xxx/static/ads/ads.js$script,first-party
+@@||searchdns.netcraft.com^$generichide
+@@||static.shorte.st^$domain=sh.st
+@@||uobsoe.com/ad_bomb/*.png$image,third-party
 @@||viptube.com^$generichide
-||t.vptbn.com^$popup
-
-# Unblocking video player
+accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
+animmex.com##script:inject(bab-defuser.js)
 auroravid.to,wholecloud.net###aad
-
-# ghacks.net
-||proxy*.amazonaws.com/bait|
-
-# userscloud.com
-|http*$popup,third-party,domain=userscloud.com
-
-# al.ly
-||wordgetboo.com^$popup
-||marketing.al.ly^
-||d4bsxdtgtmhxt.cloudfront.net^
-
-# gamebanana.com
-###AdsByCurseBanner
-||files.gamebanana.com/bitpit/opskins-gamebanana-*.jpg
-||cdm.cursecdn.com^$third-party
-
-# go4up.com
-||go4up.com/assets/img/download-buttoned.png
-||go4up.com/assets/img/webbuttoned.gif
-
-# hugefiles.net
-||free-state.work^
-||free-state.work^$popup
-
-# search.disconnect.me
-search.disconnect.me##.ad
-
-# mail.live.com
+chip.de###sparwelt_cont
+chip.de##[href^="javascript:DSinitDl"]
+data:image/jpeg;base64$domain=monova.org
+gmx.net,web.de##TR.ad-hint
+gmx.net,web.de##TR.iba
+gmx.net,web.de##TR.iba-acceptable
+gmx.net,web.de##TR.iba-uncertain
+gmx.net,web.de##TR.li.iba
+gmx.net,web.de##TR.li.iba-acceptable
+gmx.net,web.de##TR.new.iba
+gmx.net,web.de##TR.new.iba-acceptable
+gmx.net,web.de##TR.new.iba-uncertain
+heise.de###bannerzone
+hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
+hentaihaven.org##.ads
+hentaihaven.org##.hh_simple_banner
+hoerzu.de##.content-amazon
+hoerzu.de##.voltera-b
 live.com###owaadbar
+mobilegeeks.de###ha-footer
+mobilegeeks.de##DIV[style="background:#000000;"]
+netzwelt.de##.ckch
+netzwelt.de##.fi.stcl
+netzwelt.de##DIV#mr[style="width: auto; float: right;"]
+netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
+noticiasautomotivas.com.br##script:inject(bab-defuser.js)
+openload.us##script:inject(bab-defuser.js)
 outlook.live.com##div[class="_n_h"][style*="width: 165px;"]
 outlook.live.com##div[class="_n_h"][style*="width: 305px;"]
 outlook.live.com#$##primaryContainer > div[style*="right: 165px;"] { width: 100% !important; }
 outlook.live.com#$##primaryContainer > div[style*="right: 305px;"] { width: 100% !important; }
-
-# mobilegeeks.de
-mobilegeeks.de###ha-footer
-mobilegeeks.de##DIV[style="background:#000000;"]
-
-# youtube.com
-/log_interaction?
-
-# newimagepost.com
-|http*$domain=newimagepost.com,third-party,script
-||synhandler.net^
-||tataget.ru^
-
-# dasolo.org
-/static/full-page-script.js$third-party
-##.slide_likebox
-
-# pics-money.ru
-||watrz.com^
-||piroji.com^
-||klivz.com^
-||yrsfs.com^
-||qrrgv.space^
-
-# uploadshub.com
-##a[href^="http://ddownload39.club/"]
-
-# torrentfreak.com
-torrentfreak.com##ASIDE.widg.widget_text
-
-# 420chan.org
-||cdn.420chan.org/sp/
-
-# NSFW fux.com
-/adblockbanner*$script
-/popadblock*$script
-/adblockpopunder*$script
-.com/faloo.js|$script,first-party
-
-# sharesix.com
-||sharesix.com/a/images/*.gif
-
-# allvid.ch
-/b?z=$script
-||descapita.com^
-||d29lpg037v41oq.cloudfront.net^
-/async_pixel?
-?pixel=
-tid=ad&
-||barlive.link^
-||downloatransfer.com^
-||cloudfront.net^$popup,third-party,domain=allvid.ch
-
-# netzwelt.de
-||zanox-affiliate.de^$popup,third-party
-netzwelt.de##.fi.stcl
-netzwelt.de##.ckch
-netzwelt.de##DIV#mr[style="width: auto; float: right;"]
-netzwelt.de##DIV[style="text-align: center; padding: 0px; border-color: transparent; cursor: pointer; z-index: 1; height: 205px;"]
-
-# NSFW pornhub.com
-zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,third-party,subdocument,important
-##[href*="://ab.advertiserurl.com/"]
-||advertiserurl.com^
-||advertiserurl.com^$popup
-
-# monova.org
-##a[href^="http://data.oileddaintiessunset.info/"]
-data:image/jpeg;base64$domain=monova.org
-
-# filmstreamings.biz
-###su_flash_ec__0
-###su_flash_ec__1
-
-# NSFW pornleech.com
-|http*$domain=pornleech.com,third-party,script
-
-# imgfantasy.com
-|http*$domain=imgfantasy.com,third-party,script
-
-# web.de/gmx.net
-||info.web.de^$script
-||info.gmx.net^$script
-web.de##.notification-alert[data-notification-browser]
-gmx.net,web.de##TR.ad-hint
-gmx.net,web.de##TR.iba-uncertain
-gmx.net,web.de##TR.new.iba-uncertain
-gmx.net,web.de##TR.iba-acceptable
-gmx.net,web.de##TR.new.iba-acceptable
-gmx.net,web.de##TR.new.iba
-gmx.net,web.de##TR.iba
-gmx.net,web.de##TR.li.iba-acceptable
-gmx.net,web.de##TR.li.iba
-
-# anabolicmen.com
-www.anabolicmen.com###text-55
-
-# alluc.ee
-||alphamoneygenerator.com^$document
-||alphamoneygenerator.com^$popup,third-party
-
-# uploadrocket.net
-|http*$domain=uploadrocket.net,script,third-party
-@@||api.solvemedia.com^$script,third-party,domain=uploadrocket.net
-
-# flashx.cc
-##a[href*="/afu.php"]
-
-# chip.de
-||p.w.*.com/s/err
-||p.d.*.com/v$script,third-party
-||p.d.*.org/v$script,third-party
-||contributor.google.com/scripts/*/loader.js$script,domain=chip.de
-||schneevonmorgen.com^
-||svonm.com^
-chip.de###sparwelt_cont
-##a[href="http://www.chip.de/amazon_prime"]
-##[href^="http://x.chip.de/fs24/"]
-# Hides adware installer link
-chip.de##[href^="javascript:DSinitDl"]
-
-# the-parallax.com
-/Avast_*_Generic_*_WebBanner*.jpg$image
-
-# airvpn.org
-/smartbanner/appbanner.js
-
-# tampermonkey.net
-||tampermonkey.net/bnir/bitcoin
-
-# clashdaily.com
-||plex2.com^
-||bop-bop-bam.com^
-
-# stumblemail.net email tracking
-||track.stumblemail.net^$image
-
-# labdoor.com email tracking
-||email.mail1.labdoor.com^$image
-
-# NSFW xhamster.com
-&adb=$subdocument,other
-
-# windows.microsoft.com
-###NotificationUpgradeWin81and7NonSupport
-
-# heise.de
-heise.de###bannerzone
-
-# NSFW hdzog.com
-##a[href*="/_b3.php?url="]
-##a[href*="/_c3.php?url="]
-##a[href^="/adb/"]
-
-# NSFW pornhd.com
-pornhd.com##.zone.phdZone
 pornhd.com##.video-thumb-ad-zone
-
-# NSFW hiqqu.xxx
-@@||hiqqu.xxx/static/ads/ads.js$script,first-party
-||hiqqu.xxx/static/scripts.js
-
-# NSFW xvideos.com
-||iwanttodeliver.com^$popup
-/popupclick/$popup
-
-# NSFW extremetube.com
-/scripts/sweet/b3.php
-
-# watchfree.to
-||ipsowrite.com^
-||ipsowrite.com^popup
-##a[href*="://secure.link/"]
-.com/*/Redirect.a1b$document
-watchfree.to##.get_vpn
-
-# the-watch-series.to
-the-watch-series.to##a[href*="://internalredirect.site/"]
-the-watch-series.to##[id^="MarketGidWrap"]
-
-# foreverdreaming.org
-||transcripts.foreverdreaming.org^$inline-script
-
-# extratorrent.cc
-||130.211.198.219^$popup,third-party
-||thewhizmarketing.com^$popup,third-party
-
-# Unbubble.eu
-unbubble.eu##.sponsor-title + *
-unbubble.eu##.sponsor-title
-unbubble.eu##.top-products
-
-# accountkiller.com
-accountkiller.com##[onclick^="trackLinkClick('outbound', 'cancel_removal_link'"]
-
-# bitvid.sx
-||dropzenad.com^
-
-# NSFW gotporn.com
-/exo-loader/frontend_loader.js
-/statserv/video/view
-
-# thehackernews.com
-thehackernews.com##A[href^="http://ow.ly/"]
-
-# mail.google.com
-||play.google.com/log?
-
-# reviewmeta.com
+pornhd.com##.zone.phdZone
+primewire.ag,primewire.in,primewire.org##[onclick*="'bt_stream'"]
+primewire.ag,primewire.in,primewire.org##[onclick*="'bt_watch_now'"]
 reviewmeta.com##.ad_gu_tr
 reviewmeta.com##.ad_unit_1
-
-# themerkle.com
-##A[href*="://nitrogensports.eu/r/"]
+search.disconnect.me##.ad
+searchdns.netcraft.com##.advert-tag
+the-watch-series.to##a[href*="://internalredirect.site/"]
+the-watch-series.to##[id^="MarketGidWrap"]
+thehackernews.com##A[href^="http://ow.ly/"]
 themerkle.com##.topad
-||themerkle.com/wp-content/uploads/*/banner-
-||themerkle.com/wp-content/*/300x600.
-||themerkle.com/wp-content/*/300x600_
-
-# scoobysworkshop.com
-##a[href*=".hop.clickbank.net/"]
-
-# dottech.org
+tid=ad&
+torrentfreak.com##ASIDE.widg.widget_text
+unbubble.eu##.sponsor-title
+unbubble.eu##.sponsor-title + *
+unbubble.eu##.top-products
+viptube.com###adx_ad
+viptube.com##.footer_adv
+watchfree.to##.get_vpn
+web.de##.notification-alert[data-notification-browser]
+www.anabolicmen.com###text-55
+x3xtube.com##a[href^="/cgi-bin/a2/out.cgi?id="][href*="&l=trade_thumbs"]
+x3xtube.com##[href^="http://join."]
+zone_id$domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com,third-party,subdocument,important
+|http*$domain=imgfantasy.com,third-party,script
+|http*$domain=newimagepost.com,third-party,script
+|http*$domain=pornleech.com,third-party,script
+|http*$domain=uploadrocket.net,script,third-party
+|http*$popup,third-party,domain=openload.co
+|http*$popup,third-party,domain=userscloud.com
+|http*$script,domain=primewire.org,third-party
+|http*$xmlhttprequest,domain=primewire.ag|primewire.in|primewire.org,third-party
+|http*$xmlhttprequest,domain=streamcloud.eu
+||0jzxzd21.com^
+||130.211.198.219^$popup,third-party
+||4dsply.com^
+||adnetworkperformance.com^
+||adnetworkperformance.com^$popup
+||adnium.com^
+||adplxmd.com^
+||adplxmd.com^$popup
+||adsrvmedia.net^
+||adverkeyz.com^
+||adverkeyz.com^$popup
+||advertiserurl.com^
+||advertiserurl.com^$popup
+||all2lnk.com^
+||alphamoneygenerator.com^$document
+||alphamoneygenerator.com^$popup,third-party
+||ampclicks.com^
+||anverlindo.info^
+||apportium.com^
+||atas.io^$popup,third-party
 ||azadify.com^$third-party
-
-# bestvpn.com
+||barlive.link^
+||bestadbid.com^
+||bestoffertime.com^
 ||bestvpn.com/wp-content/cache/scripts/*-deanedwards.js
-
-# NSFW comdotgame.com
-##A[href*="nutaku.net/signup/landing/"][href*="?ats="]
-||sexgangsters.com/?pid=$popup,third-party
-||nutaku.net/signup/landing/$popup,third-party
-||shs.comdotgame.com^
-
-# tvdigital.de
-||images.dvbdata.com/*.jpg$subdocument,third-party
-
-# hoerzu.de
-@@||uobsoe.com/ad_bomb/*.png$image,third-party
-hoerzu.de##.voltera-b
-hoerzu.de##.content-amazon
-/ccc-adscript/*
+||bongacash.com^
+||bop-bop-bam.com^
+||branchroughlend.info^
+||cdm.cursecdn.com^$third-party
+||cdn.420chan.org/sp/
+||clicksvenue.com^
+||clkfeed.com^
+||cloudfront.net^$popup,third-party,domain=allvid.ch
+||cnt.viptube.com^
 ||conative.de^$third-party
-||kameleoon.eu^$third-party
+||contentabc.com^$popup,third-party
+||contributor.google.com/scripts/*/loader.js$script,domain=chip.de
+||cytochemistryrecitativewrasse.com^
+||cytochemistryrecitativewrasse.com^$popup
+||d29lpg037v41oq.cloudfront.net^
 ||d31bfnnwekbny6.cloudfront.net^
+||d4bsxdtgtmhxt.cloudfront.net^
 ||d62mrph0xm5hi.cloudfront.net^
-
-# securityxploded.com
-||urldelivery.com^
-
-# NSFW pussyspace.com
-||pussyspace.com/ajax_obj.js
-
-# NSFW keezmovies.com
-/revive-adserver-$popunder,popup
-
-# NSFW hentai-foundry.com
-hentai-foundry.com##P > [href^="http"] > IMG[src^="//img.hentai-foundry.com/"]
-
-# torrentdownloads.me
-##A[href*="/AF_TA/rel/index.cfm"]
-
-# NSFW 4tube.com
-||restoring.club^
-/scripts/sweet/*$third-party
-
-# NSFW pornult.com
-/unblockmeback.php$script
-
-# NSFW foxtube.com
+||descapita.com^
+||directadvert.ru^
+||directrev.com^
+||downloatransfer.com^
+||downloatransfer.com^$popup
+||dprtb.com^
+||dropzenad.com^
+||duckcash.eu^
 ||e.mzsimg.com^$image,domain=foxtube.com
-
-# NSFW porndoe.com
-||porndoe.com/misc/*.php
-
-# webmd.com
-||webmd.com/dtmcms/live/webmd/*/oas*.js
-
-# blockadblock
-# noticiasautomotivas.com.br
-noticiasautomotivas.com.br##script:inject(bab-defuser.js)
-# openload.us
-openload.us##script:inject(bab-defuser.js)
-# animmex.com
-animmex.com##script:inject(bab-defuser.js)
-4553t5pugtt1qslvsnmpc0tpfz5fo.xyz##script:inject(bab-defuser.js)
-
-# Random filters
-###adb-note
-/popu/*$script
+||email.mail1.labdoor.com^$image
+||fantasti.cc*/*track.php
+||files.gamebanana.com/bitpit/opskins-gamebanana-*.jpg
+||finishclueobscure.info^
+||finishclueobscure.info^$popup
+||free-state.work^
+||free-state.work^$popup
+||globaltraffico.com^
+||gmyze.com^
+||go4up.com/assets/img/download-buttoned.png
+||go4up.com/assets/img/webbuttoned.gif
 ||google-analytics.com^$popup,third-party
 ||google.com/settings/hatsv2$subdocument
-||revcontent.com^$script,third-party
-||sharethis.com^$script,third-party
-
-# Assortment of ad/tracking servers not found in Peter Lowe's
-||directrev.com^
-||terraclicks.com^
+||hentaihaven.org/beta/
+||hentaihaven.org/_
+||hilltopads.net^
+||hiqqu.xxx/static/scripts.js
+||images.dvbdata.com/*.jpg$subdocument,third-party
+||info.gmx.net^$script
+||info.web.de^$script
+||invernetter.info^
+||ipsowrite.com^
+||ipsowrite.com^popup
+||iwanttodeliver.com^$popup
+||kameleoon.eu^$third-party
+||klivz.com^
+||liveadexchanger.com^
 ||loading-delivery1.com^
 ||loading-delivery2.com^
-||liveadexchanger.com^
-||popcash.net^
-||spaceshipads.com^
-||rdsa2012.com^
-||all2lnk.com^
-||predictivadvertising.com^
-||4dsply.com^
-||xl415.com^
-||trackingclick.net^
-||redirectvoluum.com^
-||ampclicks.com^
-||bestadbid.com^
-||prpops.com^
-||bongacash.com^
+||marketing.al.ly^
 ||megapopads.com^
-||padsdel.com^
 ||n121adserv.com^
-||popundertotal.com^
-||popmyads.com^
-||phoenixads.co.in^
-||newpoptab.com^
-||adsrvmedia.net^
 ||n156adserv.com^
-||directadvert.ru^
-||hilltopads.net^
-||trw12.com^
-||traffichaus.com^
-||zinturax.com^
-||trafficstars.com^
-||clkfeed.com^
-||clicksvenue.com^
-||globaltraffico.com^
-||apportium.com^
-||zeroredirect1.com^
-||zeroredirect2.com^
-||zeroredirect10.com^
-||dprtb.com^
-||bestoffertime.com^
-||trklnks.com^
-||duckcash.eu^
-||voluumtrk.com^
+||newpoptab.com^
 ||november-lax.com^
+||npmpecd.com^$popup,document
+||nutaku.net/signup/landing/$popup,third-party
+||officerrecordscale.info^
+||officerrecordscale.info^$popup
+||oratosaeron.com^
+||oratosaeron.com^$popup
+||p.d.*.com/v$script,third-party
+||p.d.*.org/v$script,third-party
+||p.w.*.com/s/err
+||padsdel.com^
+||phoenixads.co.in^
+||piroji.com^
+||play.google.com/log?
+||plex2.com^
+||popcash.net^
+||popmyads.com^
+||popundertotal.com^
+||porndoe.com/misc/*.php
+||predictivadvertising.com^
+||proxy*.amazonaws.com/bait|
+||prpops.com^
+||pussyspace.com/ajax_obj.js
+||qrrgv.space^
+||rdsa2012.com^
+||redirectvoluum.com^
+||restoring.club^
+||revcontent.com^$script,third-party
+||scandicas.com^
+||scandicas.com^$popup
+||schneevonmorgen.com^
+||sexgangsters.com/?pid=$popup,third-party
+||sharesix.com/a/images/*.gif
+||sharethis.com^$script,third-party
+||shs.comdotgame.com^
+||signetter.com^
+||signetter.com^$popup
+||spaceshipads.com^
+||svonm.com^
+||synhandler.net^
+||t.vptbn.com^$popup
+||tampermonkey.net/bnir/bitcoin
+||tataget.ru^
+||terraclicks.com^
+||themerkle.com/wp-content/*/300x600.
+||themerkle.com/wp-content/*/300x600_
+||themerkle.com/wp-content/uploads/*/banner-
+||thewhizmarketing.com^$popup,third-party
+||ticrite.com^
+||ticrite.com^$popup
+||towardangelaosprey.com^
+||towardangelaosprey.com^$popup
+||track.stumblemail.net^$image
+||trackingclick.net^
+||traffichaus.com^
+||trafficmagnates.com^
+||trafficmagnates.com^$popup
+||trafficstars.com^
+||transcripts.foreverdreaming.org^$inline-script
+||trimpur.com^
+||trimpur.com^$popup
+||trklnks.com^
+||trw12.com^
+||trw12.com^$popup
+||urldelivery.com^
+||viptube.com/_
+||voluumtrk.com^
+||watrz.com^
+||webmd.com/dtmcms/live/webmd/*/oas*.js
+||wordgetboo.com^$popup
+||www.startpage.com/do/jserr$xmlhttprequest
+||x3xtube.com/redir*.html$popup
+||xl415.com^
+||yrsfs.com^
+||zanox-affiliate.de^$popup,third-party
+||zerem.*.info^
+||zerem.*.info^$popup
+||zeroredirect1.com^
+||zeroredirect10.com^
+||zeroredirect2.com^
+||zinturax.com^
 
 # Courtesy of @jo2dan23
-||integrousmarketing.com^$third-party
-||adrta.com^$third-party
-||agilecrm.com^$third-party
-||applovin.com^$third-party
-||zykko.com^$third-party
-||adthrive.com^$third-party
-||lostrabbitmedia.com^$third-party
-||parkingcrew.net^$third-party
-||adtrackone.eu^$document
-||ledradn.com^$third-party
-||pxi.pub^$third-party
-||urx.io^$third-party
-||cyveillance.com^$third-party
-||geoplugin.net^$third-party
-||collector.shorte.st^
-||tubescms.phncdn.com^
-||d1tprjo2w7krrh.cloudfront.net^
-||afs.googleusercontent.com^
-||pixel.getchute.com^
-||vice-ads.s3.amazonaws.com^
-||admarketplace.net^
-||track.reference.com^
-||beacon.squixa.net^
-||ampxchange.com^
-||addwish.com^$third-party
-||maxtraffic.com^$third-party
-||adjs.net^$third-party
-||propelmarketing.com^$third-party
-||conversionsondemand.com^$third-party
-||liveclicker.net^$third-party
-||atgsvcs.com^$third-party
-||adblade.com^$third-party,popup
-||247-inc.net^$third-party
-||intilery-analytics.com^$third-party
-||crm-metrix.com^$third-party
-||snapengage.com^$third-party
-||dthvdr9.com^$third-party
-||ibsrv.net^$third-party
-||myvisitors.se^$third-party
-||afsanalytics.com^$third-party
-||forcetrac.com^$third-party
-||caanalytics.com^$third-party
-||adsender.us^$third-party
-||rmgserving.com^$third-party
-||conviva.com^*/LivePassModuleMain_telemetry.swf
-||cloudfront.net/is.gif?
-||cloudfront.net/a.gif|
-||retargetapp.com/pixel.js?
-||yimg.com^*/GlinkPing.aspx?
-||amazonaws.com/wpanalytics/
-||investopedia.com^*/geoip.php
-||xpanama.net/stats/
-||vimeo.com/log/
-||vimeocdn.com^*/player-stats
-||palimpalem.com^*/counter.php?
-||redditmedia.com/gtm/
-||foursquare.com^*/logactions
-||securepaynet.net/parked/
-||yelp.com/ad_acknowledgment
-||yelp.com^*/log_views
-||yahoo.com/yabeacon?
-||tacdn.com^*/BounceUserTracking-
-||yahoo.com/pageview/?
-||yahoo.com/pageview|
-||go.com/b/ss/
-||b.sli-spark.com/sli-spark.js
-||yahoo.com/neo/logger
-||yahoo.com/neo/mbfb?
-||yahoo.com/pageview?
-||zappos.com^*/pixel.png?
-||zappos.com/event.cgi?
-||zappos.com/err.cgi?
-||zappos.com/le.cgi?
-||zappos.com^*/uedata?
-||photorank.me/track/
-||carambo.la/logging/
-||yahoodns.net/i.gif
-||itsme247.com^*/ga.js
-||eztv.ag/ezimg/s/1/1/s.gif
-||kastatic.com^*/blank.gif
-||adobe.com^*/pixel.gif
-||ebayrtm.com/clk?$image
-||paypal.com^*/api/log
-||amazon.*/uedata
-||amazon.*/ReportEvent?
-||amazon.*/record.html
-||amazon.*/analytics.
-||amazon.*/empty.gif?
-||amazon.*/record-impressions.
-||amazon.*/blank-pixel.
-||amazon.*/metrics/log-$~image
-||media-imdb.com/images/*/imdbads/1x1*.swf
-||imdb.com/tr/
-||usps.com^*/blank.gif
-/csi_204?
+##a[href^="http://wct.link/click"]
+.net/s.gif?
+.net/track?$~object
+/basePopunder.js
+/cdn-cgi/pe/bag2?*adstract.com
 /ComscoreStreamSensePlugin.
+/comscore_branding/*
+/csi_204?
+/ga_urchin_
+/index.php?service=stats&action=collect&
+/js/caf.js|
 /MOATAnalyticsPlugin.
 /NielsenPlugin.
-.net/track?$~object
-.net/s.gif?
-/webtrekk.
-/webtrekk_
-/js/caf.js|
 /parking_caf_*.js
 /rum-beacon-
 /tcounter.
-/comscore_branding/*
-/ga_urchin_
 /unbxdAnalytics.js
-/index.php?service=stats&action=collect&
-/basePopunder.js
-/cdn-cgi/pe/bag2?*adstract.com
-##a[href^="http://wct.link/click"]
+/webtrekk.
+/webtrekk_
+||247-inc.net^$third-party
+||adblade.com^$third-party,popup
+||addwish.com^$third-party
+||adjs.net^$third-party
+||admarketplace.net^
+||adobe.com^*/pixel.gif
+||adrta.com^$third-party
+||adsender.us^$third-party
+||adthrive.com^$third-party
+||adtrackone.eu^$document
+||afs.googleusercontent.com^
+||afsanalytics.com^$third-party
+||agilecrm.com^$third-party
+||amazon.*/analytics.
+||amazon.*/blank-pixel.
+||amazon.*/empty.gif?
+||amazon.*/metrics/log-$~image
+||amazon.*/record-impressions.
+||amazon.*/record.html
+||amazon.*/ReportEvent?
+||amazon.*/uedata
+||amazonaws.com/wpanalytics/
+||ampxchange.com^
+||applovin.com^$third-party
+||atgsvcs.com^$third-party
+||b.sli-spark.com/sli-spark.js
+||beacon.squixa.net^
+||caanalytics.com^$third-party
+||carambo.la/logging/
+||cloudfront.net/a.gif|
+||cloudfront.net/is.gif?
+||collector.shorte.st^
+||conversionsondemand.com^$third-party
+||conviva.com^*/LivePassModuleMain_telemetry.swf
+||crm-metrix.com^$third-party
+||cyveillance.com^$third-party
+||d1tprjo2w7krrh.cloudfront.net^
+||dthvdr9.com^$third-party
+||ebayrtm.com/clk?$image
+||eztv.ag/ezimg/s/1/1/s.gif
+||forcetrac.com^$third-party
+||foursquare.com^*/logactions
+||geoplugin.net^$third-party
+||go.com/b/ss/
+||ibsrv.net^$third-party
+||imdb.com/tr/
+||integrousmarketing.com^$third-party
+||intilery-analytics.com^$third-party
+||investopedia.com^*/geoip.php
+||itsme247.com^*/ga.js
+||kastatic.com^*/blank.gif
+||ledradn.com^$third-party
+||liveclicker.net^$third-party
+||lostrabbitmedia.com^$third-party
+||maxtraffic.com^$third-party
+||media-imdb.com/images/*/imdbads/1x1*.swf
+||myvisitors.se^$third-party
+||palimpalem.com^*/counter.php?
+||parkingcrew.net^$third-party
+||paypal.com^*/api/log
+||photorank.me/track/
+||pixel.getchute.com^
+||propelmarketing.com^$third-party
+||pxi.pub^$third-party
+||redditmedia.com/gtm/
+||retargetapp.com/pixel.js?
+||rmgserving.com^$third-party
+||securepaynet.net/parked/
+||snapengage.com^$third-party
+||tacdn.com^*/BounceUserTracking-
+||track.reference.com^
+||tubescms.phncdn.com^
+||urx.io^$third-party
+||usps.com^*/blank.gif
+||vice-ads.s3.amazonaws.com^
+||vimeo.com/log/
+||vimeocdn.com^*/player-stats
+||xpanama.net/stats/
+||yahoo.com/neo/logger
+||yahoo.com/neo/mbfb?
+||yahoo.com/pageview/?
+||yahoo.com/pageview?
+||yahoo.com/pageview|
+||yahoo.com/yabeacon?
+||yahoodns.net/i.gif
+||yelp.com/ad_acknowledgment
+||yelp.com^*/log_views
+||yimg.com^*/GlinkPing.aspx?
+||zappos.com/err.cgi?
+||zappos.com/event.cgi?
+||zappos.com/le.cgi?
+||zappos.com^*/pixel.png?
+||zappos.com^*/uedata?
+||zykko.com^$third-party
 
-# Filters taken out of EasyList and modified to make use of strict blocking.
+# Filters partially taken out of EasyList and modified to make use of strict blocking.
 # "EasyList" by "The EasyList authors (https://easylist.adblockplus.org/)" (License: https://easylist-downloads.adblockplus.org/COPYING)
+&link_type=offer$document
 &popunder=$document
+&program=revshare&$document
+-ads-campaign/$document
 -pop-under/$document
 -popexit.$document
 -popunder.$document
 -popup-ad.$document
 -popup-ads-$document
+.co/ads/$document
+.com/?adv=$document
+.com/ads?$document
+.engine?PlacementId=$document
 .net/pops.$document
 .org/pops.$document
 .popunder.$document
-.popup_im.$document
 .popupvideoad.$document
-?popupiniframe=$document
+.popup_im.$document
+/?placement=*&redirect$document
+/?reef=$document
+/a/display.php?$document
+/ad.php?tag=$document
+/ad.php?zone$document
 /ad.popup?$document
+/ad/display.php$document
 /ad/popup.$document
-/ad_pop.$document
-/ad_pop1.$document
-/ad_popup_$document
+/ad/window.php?$document
+/ad132m/*$document
+/adclick.$document
+/adClick/*$document
+/AdHandler.aspx?$document
 /adpop.$document
 /adpop32.$document
 /adpopup.$document
+/ads.htm$document,domain=~webopedia.com
 /ads/pop.$document
 /ads/popup.$document
 /ads/popup_$document
+/adServe/*$document
+/adserver.$document
+/adserving$document
+/adstream_sx.ads/*$document
+/adsxml.php$document
+/adsynserveuserid=$document
 /adultadworldpop_$document
+/advlink.$document
 /advPop.$document
+/ad_pop.$document
+/ad_pop1.$document
+/ad_popup_$document
+/afu.php?$document
 /apopwin.$document
 /awepop.$document
+/bani/index.php?id=$document
 /basePopunder.$document
+/click?adv=$document
+/clickpop.$document
 /contpop.$document
 /descpopup.$document
-/exit_popup$document
 /exitpop.$document
 /exitpopunder.$document
 /exitpopunder_$document
 /exitpopup.$document
+/exit_popup$document
 /expop.$document
+/fp.eng?$document
+/fp.engine?$document
 /geitonpop.$document
 /IBNjspopunder.$document
 /im-popup/*$document
@@ -650,32 +508,34 @@ animmex.com##script:inject(bab-defuser.js)
 /jsVideoPopAd.$document
 /kaksvpopup.$document
 /kogeePopupAd.$document
+/layered-popups/*$document
+/lr.php?zoneid=$document
+/m-wp-popup/*$document
 /mainpagepopupadv1.$document
 /markpop.$document
 /msnpop.$document
 /msnpopsingle2.$document
 /msnpopup.$document
 /msnpopup4.$document
-/wp_actionpop/*$document
+/platinumpopup/*$document
+/pop-imp/*$document
 /pop-under.$document
 /pop2.$document,domain=~webopedia.com
 /pop?tid=$document
-/pop_ad.$document
-/pop_adfy.$document
-/pop_camgirlcity.$document
-/pop_under.$document
-/pop_under/*$document
 /popad-$document
 /popad.$document
 /popads.$document,domain=~alexa.com|~builtwith.com|~domaintools.com|~github.com|~githubusercontent.com|~mywot.com|~publicwww.com|~similarweb.com|~w3bin.com|~w3techs.com|~who.is
 /popads/*$document
-/popads_$document
 /popadscpm.$document
+/popads_$document
 /poplivejasmine.$document
 /popounder4.$document
+/popout.$document
 /poprotator.$document
 /popshow.$document
+/poptest.$document
 /popu.$document
+/popunder$document,domain=~webopedia.com
 /popunder-$document
 /popunder.$document,domain=~webopedia.com
 /popunder/*$document
@@ -686,126 +546,69 @@ animmex.com##script:inject(bab-defuser.js)
 /popunder5.$document
 /popunder7.$document
 /popunder?$document
-/popunder_$document
 /popunderblogs.$document
 /popundercode.$document
 /popunderking.$document
 /popunders.$document
 /popunders/*$document
+/popunder_$document
 /popundr.$document
 /popundr_$document
 /popup-domination/*$document
 /popup2.$document
 /popup3.$document
-/popup_ad.$document,domain=~webopedia.com
-/popup_code.$document
 /popupads.$document
 /popupdfp.$document
+/popuplog/*$document
 /popupunder.$document
-/streamatepop.$document
-/VHDpoppingModels/*$document
-/m-wp-popup/*$document
-/platinumpopup/*$document
-/wp-super-popup-pro/*$document
-/wp-super-popup/*$document
-/wp-popup-scheduler/*$document
-?PopAd=$document
-?type=oas_pop&$document
-_pop_ad.$document
-_pop_ad/$document
-_pop_under.$document
-_popunder.$document
-_popunder_$document
-_popupunder.$document
-&link_type=offer$document
-&program=revshare&$document
--ads-campaign/$document
-.co/ads/$document
-.com/?adv=$document
-.com/ads?$document
-.engine?PlacementId=$document
-/?placement=*&redirect$document
-/?reef=$document
-/a/display.php?$document
-/ad.php?tag=$document
-/ad.php?zone$document
-/ad/display.php$document
-/ad/window.php?$document
-/ad132m/*$document
-/adclick.$document
-/adClick/*$document
-/AdHandler.aspx?$document
-/ads.htm$document,domain=~webopedia.com
-/adServe/*$document
-/adserver.$document
-/adstream_sx.ads/*$document
-/adsxml.php$document
-/adsynserveuserid=$document
-/advlink.$document
-/afu.php?$document
-/bani/index.php?id=$document
-/click?adv=$document
-/fp.eng?$document
-/fp.engine?$document
-/lr.php?zoneid=$document
-/pop-imp/*$document
-/popout.$document
+/popup_ad.$document,domain=~webopedia.com
+/popup_code.$document
+/pop_ad.$document
+/pop_adfy.$document
+/pop_camgirlcity.$document
+/pop_under.$document
+/pop_under/*$document
 /promoredirect?*&campaign=*&zone=$document
 /punder.php$document
+/puopen$document
 /realmedia/ads/*$document
 /Redirect.eng?$document
 /Redirect.engine$document
 /Redirect.rb?$document
 /redirect.spark?$document
 /rotator.php?$document
+/sendspace-pop.$document
 /servlet/ajrotator/*$document
+/servlet/view/*$document
 /showads/*$document
 /spopunder^$document
 /srvclk.php?$document
+/static/js/pop*.$document
+/streamatepop.$document
+/VHDpoppingModels/*$document
+/werbepopup/*$document
+/wp-popup-scheduler/*$document
+/wp-super-popup-pro/*$document
+/wp-super-popup/*$document
+/wp_actionpop/*$document
 /yesbaby.$document
 =popunder&$document
 =popunders&$document
 ?AdUrl=$document
 ?bannerid=*&punder=$document
 ?iiadext=$document
-?zoneid=*_bannerid=$document
-_popunder+$document
-/clickpop.$document
-/layered-popups/*$document
-/poptest.$document
-/static/js/pop*.$document
-/sendspace-pop.$document
-^utm_medium=pops^$document
-/popuplog/*$document
-/werbepopup/*$document
+?PopAd=$document
 ?popup:msp_$document
+?popupiniframe=$document
+?type=oas_pop&$document
+?zoneid=*_bannerid=$document
+^utm_medium=pops^$document
 ^utm_medium=popunder^$document
-# Created by myself
-/adserving$document
-/puopen$document
-/popunder$document,domain=~webopedia.com
 _popunder&$document
-/servlet/view/*$document
-
-# startpage.com
-@@/js/abp.js?$script,first-party
-||www.startpage.com/do/jserr$xmlhttprequest
-
-# searchdns.netcraft.com (some rare breakage)
-@@||searchdns.netcraft.com^$generichide
-searchdns.netcraft.com##.advert-tag
-
-# freenet.de
-@@||firebaseapp.com/adpoint.js?_=$script
-
-# sh.st
-# To counter shorte.st in hpHosts’ Ad and tracking servers and Dan Pollock’s hosts file (unable to follow links).
-@@||static.shorte.st^$domain=sh.st
-
-# NSFW realitykings.com
-# To counter ||cache.realitykings.com^ in MVPS HOSTS.
-@@||cache.realitykings.com^$media,object,first-party
-
-# NSFW teamskeet.com
-# To counter ||cdn.teamskeetimages.com^ in MVPS HOSTS.
-@@||cdn.teamskeetimages.com^$image,domain=teamskeet.com
+_popunder+$document
+_popunder.$document
+_popunder_$document
+_popupunder.$document
+_pop_ad.$document
+_pop_ad/$document
+_pop_under.$document
